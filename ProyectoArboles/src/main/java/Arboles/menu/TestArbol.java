@@ -148,7 +148,7 @@ public class TestArbol{
              
              case 7: //Arbol B
                   System.out.println("introdusca el numero");
-                  System.out.println(((ArbolMViasBusqueda)ArbolDeBusqueda).cantidadNodosConDatosVaciosDelNivel(ponerDato.nextInt()));  
+                   System.out.println(((ArbolB)ArbolDeBusqueda).cantidadNodosConDatosVaciosDelNivel(ponerDato.nextInt()));  
              break;
              
              case 8://arbol b
